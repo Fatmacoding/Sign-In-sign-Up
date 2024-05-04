@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register & login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="icon.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,17 +14,17 @@
         <h1 class="form-title">Register</h1>
         <form action="register.php" method="post">
             <div class="inputGroup">
-                <i class="fas fa-user"></i>
+                <i class="fa-solid fa-user"></i>
                 <input type="text" id="fName" name="fName" placeholder="hh" required>
                 <label for="">First Name</label>
             </div>
             <div class="inputGroup">
-                <i class="fas fa-user"></i>
+                <i class="fa-solid fa-user"></i>
                 <input type="text" id="lName" name="lName" placeholder="hh" required>
                 <label for="">Last Name</label>
             </div>  
             <div class="inputGroup">
-                <i class="fas fa-envelope"></i>
+                <i class="fa-solid fa-envelope"></i>
                 <input type="email" id="email" name="email" placeholder="hh" required>
                 <label for="">Email</label>
             </div>
@@ -38,8 +39,8 @@
             --------------or--------------
         </p>
         <div class="icons">
-            <i class="fab fa-google"></i>
-            <i class="fab fa-facebook"></i>
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-facebook"></i>
         </div>
         <div class="links">
             <p>Already Have Account ?</p>
@@ -52,7 +53,7 @@
         <form action="register.php" method="post">
               
             <div class="inputGroup">
-                <i class="fas fa-envelope"></i>
+                <i class="fa-solid fa-envelope"></i>
                 <input type="email" id="email" name="email" placeholder="hh" required>
                 <label for="">Email</label>
             </div>
@@ -70,8 +71,8 @@
             --------------or--------------
         </p>
         <div class="icons">
-            <i class="fab fa-google"></i>
-            <i class="fab fa-facebook"></i>
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-facebook"></i>
         </div>
         <div class="links">
             <p>Don't have account yet ?</p>
