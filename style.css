@@ -6,7 +6,7 @@
 }
 body{
     background-color: #c9d6ff;
-    background: linear-gradient(to right,#2442a3,#5379f4c3,#67b9fc73,#5379f4c3,#2442a3);
+    background: linear-gradient(to right,#1c3174,#7c95e7c3,#86c6fb,#7c95e7c3,#1c3174);
 }
 .container{
     background: #fff;
@@ -32,7 +32,7 @@ input{
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #3e5bba;
-    padding-left: 1.5rem; 
+    padding-left: 1.9rem; 
     font-size: 15px;
 }
 .inputGroup{
@@ -54,7 +54,7 @@ input::placeholder{
 label{
     color: #757575;
     position: relative;
-    left: 1.2em;
+    left: 1.6em;
     top: -1.3em;
     cursor:auto;
     transition: 0.3s ease all;
@@ -138,4 +138,7 @@ button{
 button:hover{
     text-decoration: underline;
     color: #2442a3;
+}
+#signUp{
+    display:none;
 }

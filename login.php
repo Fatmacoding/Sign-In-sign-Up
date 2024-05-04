@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- SIGN UP -->
     <div class="container" id="signUp">
         <h1 class="form-title">Register</h1>
-        <form action="" method="post">
+        <form action="register.php" method="post">
             <div class="inputGroup">
                 <i class="fas fa-user"></i>
                 <input type="text" id="fName" name="fName" placeholder="hh" required>
@@ -23,7 +24,7 @@
             </div>  
             <div class="inputGroup">
                 <i class="fas fa-envelope"></i>
-                <input type="text" id="email" name="email" placeholder="hh" required>
+                <input type="email" id="email" name="email" placeholder="hh" required>
                 <label for="">Email</label>
             </div>
             <div class="inputGroup">
@@ -45,19 +46,19 @@
             <button id="signInButton">Sign In</button>
         </div>
     </div>
-
+    <!-- SIGN IN -->
     <div class="container" id="signIn">
         <h1 class="form-title">Sign In</h1>
-        <form action="" method="post">
+        <form action="register.php" method="post">
               
             <div class="inputGroup">
                 <i class="fas fa-envelope"></i>
-                <input type="text" id="email" name="email" placeholder="hh" required>
+                <input type="email" id="email" name="email" placeholder="hh" required>
                 <label for="">Email</label>
             </div>
             <div class="inputGroup">
                 <i class="fas fa-lock"></i>
-                <input type="text" id="password" name="password" placeholder="hh" required>
+                <input type="password" id="password" name="password" placeholder="hh" required>
                 <label for="">Password</label>
             </div>
             <p class="recover">
